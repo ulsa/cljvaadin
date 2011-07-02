@@ -1,0 +1,16 @@
+# cljvaadin
+
+Simple example Vaadin web application inspired by the blog [http://thilinalk.blogspot.com/2011/01/writin-vaadin-app-using-clojure.html] and modified to use gen-class instead of having to separately compile a Java servlet.
+
+## Usage
+
+lein deps
+lein compile
+lein uberwar
+cp <war> <tomcat>/webapps
+
+## License
+
+Copyright (C) 2011 Ulrik Sandberg
+
+Distributed under the Eclipse Public License, the same as Clojure.

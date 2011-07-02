@@ -1,0 +1,11 @@
+(ns cljvaadin.Clojure4Vaadin
+  (:use [cljvaadin.core :only (-main)])
+  (:import [com.vaadin Application])
+  (:gen-class
+   :extends com.vaadin.terminal.gwt.server.AbstractApplicationServlet))
+
+(defn -getApplicationClass [_]
+  (class Application))
+
+(defn -getNewApplication [this request]
+  (-main))
