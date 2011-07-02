@@ -1,6 +1,6 @@
 # cljvaadin
 
-Simple example Vaadin web application inspired by the blog [http://thilinalk.blogspot.com/2011/01/writin-vaadin-app-using-clojure.html] and modified to use gen-class instead of having to separately compile a Java servlet.
+Simple example Vaadin web application inspired by the article [http://dev.vaadin.com/wiki/Articles/ClojureScripting] and modified to use gen-class instead of having to separately compile a Java servlet.
 
 ## Usage
 
