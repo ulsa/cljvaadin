@@ -3,5 +3,4 @@
   :dependencies [[org.clojure/clojure "1.2.1"]
 		 [com.vaadin/vaadin "6.6.2"]]
   :dev-dependencies [[uk.org.alienscience/leiningen-war "0.0.2"]]
-  :regex-to-clean #"*~"
   :aot [cljvaadin.VaadinServlet])
